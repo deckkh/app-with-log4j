@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 public class App {
 
-    private static final Logger logger = LogManager.getLogger(Log4j2Usage.class.getName());
+    private static final Logger logger = LogManager.getLogger(App.class.getName());
 
     public String getGreeting() {
         return "Hello World!";
